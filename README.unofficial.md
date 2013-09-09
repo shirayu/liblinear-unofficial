@@ -5,6 +5,7 @@ I added following scripts. (Their licenses are the modified BSD license).
 
 - ``setup.py``
 - ``VERSION``
+- ``MANIFEST.in``
 - ``python/__init__.py``
 
 You can **install** LIBLINEAR in the general way.: ``sudo python  setup.py install``
@@ -18,7 +19,7 @@ This enables us to
     - ``import ll.liblinearutil``
 
 
-You may copy files to the latest LIBLINEAR source folder to install the latest version.
+You may copy files to [the latest LIBLINEAR](http://www.csie.ntu.edu.tw/~cjlin/liblinear/) source folder to install the latest version.
 When you do so, please change the number in the file ``VERSION``. 
 
 Enjoy!
