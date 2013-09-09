@@ -1,0 +1,15 @@
+include COPYRIGHT MANIFEST.in
+include MANIFEST.in
+include */README
+include README.unofficial.md
+include Makefile Makefile.win
+include VERSION
+include setup.py
+include */Makefile
+include */*m
+include */*def
+include */*c
+include */*cpp
+include */*h
+include */*hpp
+global-exclude *~

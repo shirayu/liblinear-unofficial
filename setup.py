@@ -3,7 +3,7 @@
 __author__ = 'Yuta Hayashibe' 
 __version__ = ""
 __copyright__ = ""
-__license__ = "GPL v3"
+__license__ = "The modified BSD license"
 
 
 import os
@@ -44,8 +44,11 @@ from setuptools import setup, find_packages, Extension
 setup(
     name = "ll",
     version = ll_version,
+    maintainer = "Yuta Hayashibe",
+    maintainer_email = "yuta@hayashibe.jp",
     author = "Yuta Hayashibe",
-    description = "This is liblinear buindings for Python.",
+    author_email = "yuta@hayashibe.jp",
+    description = "LIBLINEAR buindings for Python.",
     license = "The modified BSD license",
     url = "https://github.com/shirayu/liblinear-unofficial",
     package_dir={'ll': 'python'},
