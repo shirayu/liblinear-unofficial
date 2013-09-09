@@ -1,7 +1,7 @@
 This is an official repository of LIBLINEAR by Yuta Hayashibe (shirayu).
 
 
-I added following script. (Their license is GPL3).
+I added following scripts. (Their licenses are GPL3).
 
 - ``setup.py``
 - ``VERSION``
